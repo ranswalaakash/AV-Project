@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The We</title>
+    <link rel="stylesheet" href="css/project.css">
+</head>
+<body>
+    <!-- Audio -->
+    <audio id="bg-music" autoplay loop>
+        <source src="media/audio/song.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Front Page -->
+    <div class="page front-page active">
+        <div class="container">
+            <div class="av">AV</div>
+            <button class="start-button" id="start-button">START</button>
+        </div>
+    </div>
+
+    <!-- Photo Pages -->
+    <div class="page photo-page">
+        <div class="container">
+            <div class="grid-container">
+                <div class="image-container">
+                    <img id="photo" class="image" src="media/thumbnails/img1.png" alt="Image">
+                </div>
+                <div class="text-container">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <div class="emoji-container" id="emoji">🌸✨</div>
+                        <p id="photo-text" class="text">This is image 1 text. You can change it later.</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="start-button" id="next-button">NEXT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Page -->
+    <div class="page end-page">
+        <div class="text-box">
+            <p>message ✨🌸<br>bold!</p>
+            <button class="start-button" id="end-button">RESTART</button>
+        </div>
+    </div>
+
+    <script src="js/project.js"></script>
+</body>
+</html>
