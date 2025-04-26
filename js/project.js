@@ -26,14 +26,14 @@ const images = [
 ];
 
 const texts = [
-    "Text1 🌸",
-    "Text2 💖",
-    "Text3 🌼",
-    "text4 🌙",
-    "text5 ✨",
-    "text6 🌈",
-    "text7 🧚‍♀",
-    "text8 💌"
+    "  Text1  ",
+    "  Text2  ",
+    "  Text3  ",
+    "  text4  ",
+    "  text5  ",
+    "  text6  ",
+    "  text7  ",
+    "  text8  "
 ];
 
 // Initialize audio
